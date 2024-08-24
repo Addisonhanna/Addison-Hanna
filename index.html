@@ -5,6 +5,169 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Addison Hanna</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #eaeaea;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .header-container {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-container h1 {
+            font-size: 1.8em;
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffdd57;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 100px auto 50px;
+            padding: 30px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1em;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.1em;
+        }
+
+        .contact-info p {
+            margin: 0.5em 0;
+        }
+
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .resume {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .resume a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #007bff;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .resume a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Addison Hanna</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#resume">Resume</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container" id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my personal website. Here you'll find information about my professional background, portfolio, and how to get in touch with me.</p>
+    </div>
+
+    <div class="container" id="resume">
+        <h2>Resume</h2>
+        <p><strong>Note:</strong> Please download and review my resume below.</p>
+        <div class="resume">
+            <a href="Addison_Hanna_Resume.pdf" target="_blank">Download Resume</a>
+        </div>
+    </div>
+
+    <div class="container" id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Coming soon: A showcase of my work, including projects, case studies, and more.</p>
+    </div>
+
+    <div class="container" id="contact">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:AHann12@aol.com">AHann12@aol.com</a></p>
+            <p>Phone: 610-301-3893</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addison Hanna</title>
+    <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f5f5f5;
