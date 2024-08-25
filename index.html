@@ -117,6 +117,17 @@
         .resume a:hover {
             background-color: #0056b3;
         }
+
+        .two-columns {
+            column-count: 2;
+            column-gap: 30px;
+        }
+
+        .degree-info {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 5px;
+        }
     </style>
 </head>
 <body>
@@ -138,31 +149,33 @@
         <p>Welcome to my personal website. I took a long break from programming and am excited to try it again. Here you'll find information about my professional background, portfolio, a little about me, and how to get in touch.</p>
     </div>
 
-  <div class="container" id="professional">
-    <h2>Professional Background</h2>
-    <p><B>Education:</B>b><p>  
-     <p><i>Bachelor of Science in Management</n></i>   
-         
-    <p>Recent Coursework:</p>
-    <ul>
-        <li>Human Anatomy and Physiology 1 & 2</li>
-        <li>Chemistry 1 & 2</li>
-        <li>Psychology</li>
-        <li>Biology 1 & 2</li>
-        <li>Microbiology</li>
-    </ul>
-    <p><strong>Note:</strong> Please download and review my resume below.</p>
-    <div class="resume">
-        <a href="Addison_Hanna_Resume.pdf" target="_blank">Download Resume</a>
+    <div class="container" id="professional">
+        <h2>Professional Background</h2>
+        <p><b>Education:</b></p>
+        <p><i>Bachelor of Science in Management</i></p>
+        <p class="degree-info">Graduated summa cum laude</p>
+        <p><i>Associate of Science in Horticulture</i></p>
+        <p class="degree-info">Graduated summa cum laude</p>
+        
+        <p>Recent Coursework:</p>
+        <ul class="two-columns">
+            <li>Human Anatomy and Physiology 1 & 2</li>
+            <li>Chemistry 1 & 2</li>
+            <li>Psychology</li>
+            <li>Biology 1 & 2</li>
+            <li>Microbiology</li>
+        </ul>
+        <p><strong>Note:</strong> Please download and review my resume below.</p>
+        <div class="resume">
+            <a href="Addison_Hanna_Resume.pdf" target="_blank">Download Resume</a>
+        </div>
     </div>
-</div>
 
-    
-   <div class="container" id="portfolio">
+    <div class="container" id="portfolio">
         <h2>Portfolio</h2>
         <p>Coming soon: A showcase of my work, including projects, case studies, and more.</p>
     </div>
-    
+
     <div class="container" id="about">
         <h2>About Me</h2>
         <p>I live in upstate South Carolina on a small working homestead. I generally love the natural sciences, particularly plants, animals, and geology. We have 40 chickens and grow a variety of fruit in our small orchard. Next year, we plan on adding goats, building a greenhouse,
@@ -170,7 +183,7 @@
         of indoor plants like orchids and philodendrons. Soon, I will have a greater quantity and variety to keep once the greenhouse is finished. We are hoping to make it large enough to accommodate a turtle pond
         where we can keep our pet turtles and maybe even add a few more reptiles like a chameleon or tortoise.</p>
     </div>
-    
+
     <div class="container" id="contact">
         <h2>Contact</h2>
         <div class="contact-info">
