@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addison Hanna</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #eaeaea;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .header-container {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-container h1 {
+            font-size: 1.8em;
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffdd57;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 100px auto 50px;
+            padding: 30px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1em;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.1em;
+        }
+
+        .contact-info p {
+            margin: 0.5em 0;
+        }
+
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .resume {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .resume a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #007bff;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .resume a:hover {
+            background-color: #0056b3;
+        }
+
+        .degree-info {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Addison Hanna</h1>
+            <nav>
+                <a href="#hello">Hello</a>
+                <a href="#professional">Professional Background</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container" id="hello">
+        <h2>Hello!</h2>
+        <p>Welcome to my personal website. I took a long break from programming and am excited to try it again. Here you'll find information about my professional background, portfolio, a little about me, and how to get in touch.</p>
+    </div>
+
+    <div class="container" id="professional">
+        <h2>Professional Background</h2>
+        <p>I hold a Bachelor of Science in Management and an Associate of Science in Horticulture, both completed with summa cum laude honors. My education includes comprehensive coursework in both business and the natural sciences, ranging from Human Anatomy and Chemistry to Strategic Management and Accounting Principles. This diverse academic foundation has equipped me with a solid understanding of both the scientific and managerial aspects of various fields. I am passionate about leveraging this knowledge in practical, hands-on environments.</p>
+        <p><strong>Note:</strong> Please download and review my resume below.</p>
+        <div class="resume">
+            <a href="Addison Hanna_Resume.pdf" target="_blank">Download Resume</a>
+        </div>
+    </div>
+
+    <div class="container" id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Coming soon: A showcase of my work, including projects, case studies, and more.</p>
+    </div>
+
+    <div class="container" id="about">
+        <h2>About Me</h2>
+        <p>I live in upstate South Carolina on a small working homestead. I generally love the natural sciences, particularly plants, animals, and geology. We have 40 chickens and grow a variety of fruit in our small orchard. Next year, we plan on adding goats, building a greenhouse, and creating a garden plot to cultivate a wider range of foods. I keep a few bonsai that are in training but have come a long way since starting the hobby a few years ago. I also have a modest collection of indoor plants like orchids and philodendrons. Soon, I will have a greater quantity and variety to keep once the greenhouse is finished. We are hoping to make it large enough to accommodate a turtle pond where we can keep our pet turtles and maybe even add a few more reptiles like a chameleon or tortoise.</p>
+    </div>
+
+    <div class="container" id="contact">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:AHann12@aol.com">AHann12@aol.com</a></p>
+            <p>Phone: 610-301-3893</p>
+        </div>
+    </div>
+</body>
+</html>
